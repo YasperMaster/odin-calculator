@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 179, 37);
+}
+
+#container {
+  height: 355px;
+  width: 287.5px;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+#top {
+  display: flex;
+}
+
+#display {
+  height: 70px;
+  width: 287.5px;
+  background-color: rgb(212, 212, 212);
+}
+
+#AC {
+  height: 70px;
+  margin-left: 5px;
+  background-color: rgb(223, 45, 45);
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 248, 239);
+  margin: 1px;
+  font-size: 30px;
+}
